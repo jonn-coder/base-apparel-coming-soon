@@ -233,8 +233,8 @@ form .message {
     hsl(0, 0%, 100%),
     hsl(0, 100%, 98%)
   );
-    background-image: url(../images/bg-pattern-desktop.svg); 
-    background-image: url(../images/bg-pattern-desktop.svg), linear-gradient(
+    background-image: url(./images/bg-pattern-desktop.svg); 
+    background-image: url(./images/bg-pattern-desktop.svg), linear-gradient(
     135deg,
     hsl(0, 0%, 100%),
     hsl(0, 100%, 98%)
