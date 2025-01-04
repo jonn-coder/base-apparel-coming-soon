@@ -343,8 +343,4 @@ form .message {
   }
 }
 
-@media (width > 1440px) {
-  .wrapper main {
-    margin: 0 auto;
-  }
-}
+
