@@ -230,6 +230,7 @@ form .message {
   body {
     background-image: url(/images/bg-pattern-desktop.svg);
     background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .wrapper {
@@ -269,7 +270,7 @@ form .message {
 
   main .article {
     min-width: 300px;
-    max-width: 28em;
+    width: 50%;
     width: 90%;
     padding: 0 0 4em 0;
     margin: 0;
@@ -327,11 +328,18 @@ form .message {
 
   main .article {
     width: 100%;
+    padding-right: 20%;
   }
 
   main .article .headline {
     font-size: 4rem;
     letter-spacing: 16.5px;
+  }
+}
+
+@media (width > 1200) {
+  main .article {
+    padding-right: 38%;
   }
 }
 
