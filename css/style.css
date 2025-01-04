@@ -21,10 +21,6 @@ body {
     hsl(0, 0%, 100%),
     hsl(0, 100%, 98%)
   ); 
-
-
-
-  /* width: 1440px; */
 }
 
 .wrapper {
@@ -234,7 +230,7 @@ form .message {
   .wrapper {
     display: flex;
     justify-content: end;
-    background-image: url(/images/bg-pattern-desktop.svg), linear-gradient(
+    background-image: url(images/bg-pattern-desktop.svg), linear-gradient(
     135deg,
     hsl(0, 0%, 100%),
     hsl(0, 100%, 98%)
