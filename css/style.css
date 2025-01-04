@@ -148,8 +148,6 @@ form .email-box-wrapper .icons {
   height: 48px;
   right: 0;
   top: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   align-items: center;
   z-index: 999;
@@ -235,8 +233,8 @@ form .message {
     hsl(0, 0%, 100%),
     hsl(0, 100%, 98%)
   );
-    background-image: url(images/bg-pattern-desktop.svg); 
-    background-image: url(images/bg-pattern-desktop.svg), linear-gradient(
+    background-image: url(../images/bg-pattern-desktop.svg); 
+    background-image: url(../images/bg-pattern-desktop.svg), linear-gradient(
     135deg,
     hsl(0, 0%, 100%),
     hsl(0, 100%, 98%)
