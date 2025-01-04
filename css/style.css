@@ -228,7 +228,7 @@ form .message {
 
 @media (width >= 768px) {
   body {
-    background-image: url(images/bg-pattern-desktop.svg);
+    background-image: url(./images/bg-pattern-desktop.svg);
     background-repeat: no-repeat;
   }
 
