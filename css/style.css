@@ -20,7 +20,7 @@ body {
     135deg,
     hsl(0, 0%, 100%),
     hsl(0, 100%, 98%)
-  );
+  ); 
 }
 
 .wrapper {
@@ -227,6 +227,11 @@ form .message {
 }
 
 @media (width >= 768px) {
+  body {
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+  }
+
   .wrapper {
     display: flex;
     justify-content: end;
