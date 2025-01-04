@@ -21,6 +21,10 @@ body {
     hsl(0, 0%, 100%),
     hsl(0, 100%, 98%)
   ); 
+
+
+
+  /* width: 1440px; */
 }
 
 .wrapper {
@@ -227,15 +231,15 @@ form .message {
 }
 
 @media (width >= 768px) {
-  body {
-    background-image: url(/images/bg-pattern-desktop.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
   .wrapper {
     display: flex;
     justify-content: end;
+    background-image: url(/images/bg-pattern-desktop.svg), linear-gradient(
+    135deg,
+    hsl(0, 0%, 100%),
+    hsl(0, 100%, 98%)
+  );
+    background-repeat: no-repeat;
   }
 
   .wrapper main {
@@ -243,7 +247,7 @@ form .message {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    gap: 2em;
+    gap: 10%;
   }
 
   main .mobile-logo {
@@ -256,6 +260,7 @@ form .message {
   }
 
   main .hero-image {
+    width: 100%;
     max-width: 50%;
   }
 
@@ -268,10 +273,10 @@ form .message {
     display: none;
   }
 
-  main .article {
+  main .article {    
     min-width: 300px;
-    width: 50%;
-    width: 90%;
+    width: 100%;
+    max-width: 60%;
     padding: 0 0 4em 0;
     margin: 0;
   }
@@ -323,23 +328,18 @@ form .message {
   }
 
   main .hero-image {
+    width: 100%;
     max-width: 47.7%;
   }
 
   main .article {
     width: 100%;
-    padding-right: 20%;
+    max-width: 35%;
   }
 
   main .article .headline {
     font-size: 4rem;
     letter-spacing: 16.5px;
-  }
-}
-
-@media (width > 1200) {
-  main .article {
-    padding-right: 38%;
   }
 }
 
